@@ -21,5 +21,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 }]]]></http:uri-params>
 		</http:request>
 		<logger level="INFO" doc:name="Logger" doc:id="8a2d42de-fd8d-4499-849d-cebd2ed441ed" message='#[payload ++ "payload"]'/>
+		<logger level="INFO" doc:name="Logger" doc:id="6f63c802-8b90-4a14-a87a-3143a1a9188a" message='"2nd logger"'/>
 	</flow>
 </mule>
